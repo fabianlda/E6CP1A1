@@ -4,12 +4,8 @@
 a = 'verdadero'
 b = 'falso'
 
-if a == 'verdadero'
-    puts ':)'
-else
-  if b == 'verdadero'
-    puts ':|'
-  else
-    puts ':('
-  end
-end
+puts ':)' if a == 'verdadero' && if b == 'falso'
+
+puts ':|' if b == 'verdadero' && if a == 'verdadero'
+
+puts ':('  if a == 'falso' && if b == 'falso'

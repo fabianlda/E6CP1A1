@@ -4,6 +4,6 @@
 
 10.times do |i|
   suma += i
-end
+end 
 
 puts suma
